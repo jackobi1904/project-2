@@ -19,7 +19,27 @@ body {
     margin: 0 auto;
     padding: 1em;
 }
-
+.gray-box {
+    background: gray;
+    margin: 5em auto 2em;
+    padding-bottom: 4em;
+    max-width: 500px;
+    text-align: center;
+}
+.gray-box h2 {
+    font-family: 'Montserrat';
+    color: #fff;
+}
+.gray-box q {
+    font-family: 'Noto Sans';
+    margin: 0 1em;
+}
+.gray-box a {
+    font-family: 'Montserrat';
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
 .name {
     margin: 0;
 }
@@ -30,7 +50,7 @@ body {
 
 .main-nav li {
     list-style-type: none;
-    background: #FED36F;
+    background: #fff;
     margin: 1em;
     padding: .5em;
 }
@@ -101,7 +121,7 @@ h3 {
 
 .footer-nav,
 h4 {
-    font-size: 1.2em;
+    font-size: 1rem;
     font-family: 'Montserrat';
     font-weight: bolder;
     margin: 0 auto;
@@ -174,10 +194,13 @@ ul {
     display: block;
     padding: 0;
 }
+.footer-button {
+    text-align: right;
+}
 
 .footer-nav li {
     display: none;
-    padding-left: 1em;
+    padding-left: .5em;
 }
 
 .group::after {
@@ -191,10 +214,30 @@ ul {
         width: 100%;
         max-width: 1000px;
     }
+    h1 {
+        text-align: center;
+    }
     .name {
+        font-size: 2em;
+        float: left;
+        width: 40%;
         padding: 0 1rem;
     }
     
+    .main-nav {
+        float: right;
+        width: 50%;
+        text-align: right;
+    }
+    .main-nav li {
+        background: #FED36F;
+        margin: 0;
+        padding: 0;
+    }
+    .main-nav a {
+        font-size: 1.2em;
+        margin-left: 1em;
+    }
     .name,
     .main-nav,
     .main-nav li,
@@ -230,13 +273,13 @@ ul {
     .footer-button {
         display: none;
     }
+    
     .footer-nav {
         display: inline;
-    }
-    .footer-nav {
-        float: right;
+        width: 50%;
         text-align: right;
     }
+
 }
 
 @media (min-width: 1024px) {
@@ -257,10 +300,15 @@ ul {
     .name {
         float: left;
     }
-
+    h1 {
+        text-align: left;
+    }
     .main-nav li {
         margin: 0;
-        padding: 0 1rem;
+        padding: 0;
+    }
+    .main-nav a {
+        margin-left: 1em;
     }
     
     .main-header img {
