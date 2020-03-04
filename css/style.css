@@ -169,7 +169,7 @@ q {
 
 .main-footer {
     background: #FED36F;
-    text-align: center;
+    margin: 0 auto;
     max-width: 1150px;
 }
 .main-footer li {
