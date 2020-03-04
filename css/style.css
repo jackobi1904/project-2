@@ -139,7 +139,9 @@ p {
 ul {
     font-family: 'Noto Sans';
     padding: 0;
-
+}
+q {
+    color: #fff;
 }
 
 .top-border {
