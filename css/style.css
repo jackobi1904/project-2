@@ -163,10 +163,14 @@ q {
     padding: 15px 0;
     background: #FED36F;
     width: 100%;
+    margin: 0 auto;
+    max-width: 1150px;
 }
 
 .main-footer {
     background: #FED36F;
+    text-align: center;
+    max-width: 1150px;
 }
 .main-footer li {
     list-style-type: none;
